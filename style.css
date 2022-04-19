@@ -1,4 +1,26 @@
+* {
+    background-image: url(table.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #card > img {
     height: 300px;
     width: 220px;
+}
+
+.userNum{
+    text-align: center;
+
+}
+
+.ComNum{
+    text-align: center;
+}
+
+.click{
+    color: blue;
+    padding: 25px;
+    background-color: yellow;
 }
