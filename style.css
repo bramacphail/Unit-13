@@ -1,8 +1,10 @@
-* {
-    background-image: url(table.jpeg);
+body {
+    background-image: url(images/table.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 100%;
+    margin: 250px;
 }
 
 #card > img {
