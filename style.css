@@ -4,12 +4,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 100%;
-    margin: 250px;
+    margin: 350px;
 }
 
 #card > img {
-    height: 300px;
-    width: 220px;
+    height: 200px;
+    width: 150px;
+    margin-top: -40vh;
+    margin-left: 30vh;
 }
 
 .userNum{
@@ -22,7 +24,13 @@ body {
 }
 
 .click{
-    color: blue;
+    color: black;
     padding: 25px;
-    background-color: yellow;
+    background-color: green;
+    width: 100px;
+}
+
+.runBox{
+    margin-left: -55vh;
+    margin-top: -53vh;
 }
