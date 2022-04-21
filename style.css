@@ -11,7 +11,7 @@ body {
     height: 200px;
     width: 150px;
     margin-top: -40vh;
-    margin-left: 30vh;
+    margin-left: -20vh;
 }
 
 .userNum{
@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-.click{
+.playerTurn{
     color: black;
     padding: 25px;
     background-color: green;
@@ -33,4 +33,28 @@ body {
 .runBox{
     margin-left: -55vh;
     margin-top: -53vh;
+}
+
+.stopBox{
+    margin-left: -55vh;
+    margin-top: -35vh;
+}
+
+.computerTurn{
+    color: black;
+    padding: 25px;
+    background-color: red;
+    width: 100px;
+}
+
+.reloadBox{
+    margin-left: -55vh;
+    margin-top: -17vh;
+}
+
+.reloadTurn{
+    color: black;
+    padding: 25px;
+    background-color: yellow;
+    width: 100px;
 }
