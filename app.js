@@ -4,6 +4,16 @@ function run() {
     
 }
 
+function computerRun() {
+    getCard()
+
+    getCard()
+    
+    getCard()
+
+    getCard()
+}
+
 
 function getCard() {
     var r = Math.floor(Math.random() * 10) + 1
