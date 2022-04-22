@@ -5,13 +5,13 @@ function run() {
 }
 
 function computerRun() {
-    getCard()
+    computerCard()
 
-    getCard()
+    computerCard()
     
-    getCard()
+    computerCard()
 
-    getCard()
+    computerCard()
 }
 
 
@@ -20,5 +20,12 @@ function getCard() {
     var suitArray = ["C", "D", "H", "S"]
     var randomSuit = Math.floor(Math.random() * 4)
     document.getElementById("card").insertAdjacentHTML("afterbegin", "<img src=images/" + r + suitArray[randomSuit] +  ".jpg>")
+}
+
+function computerCard() {
+    var r = Math.floor(Math.random() * 10) + 1
+    var suitArray = ["C", "D", "H", "S"]
+    var randomSuit = Math.floor(Math.random() * 4)
+    document.getElementById("computer").insertAdjacentHTML("afterbegin", "<img src=images/" + r + suitArray[randomSuit] +  ".jpg>")
 }
 
